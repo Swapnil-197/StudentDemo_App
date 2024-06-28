@@ -8,10 +8,10 @@ public class Test {
 		System.out.println(a+b);
 	}
 	
-	public void sub() {
+	public int sub() {
 		int a = 50 ;
 		int b = 20 ;
-		System.out.println(a-b);
+		return a-b;
 	}
 
 	public static void main(String[] args) {
